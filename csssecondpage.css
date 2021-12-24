@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+
+
+* 
+.title h1{
+  background-color:#283259;
+  display: block;
+  color:white;
+  text-align: center;
+}
+.title img{
+  position: absolute;
+  left: 0;
+}
+
+body {
+  font-family: "OpenSans-Light";
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: ;
+}
+.container
+{
+  background-color: #EEEEEA;
+  border-radius:5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  width:1000px;
+  max-width:100%;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
+}
+  
+.header h2{
+  color: #283259;
+  text-align: center;
+}
+h4{
+  color: #283259;
+  text-align: left;
+}
+.form{
+  paddingg:30px 40px;
+  color: #283259;
+  
+}
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+  
+}
+.form-control label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.form-control-input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-family: inherit;
+  font-size:14px;
+  padding:10px;
+  width:100%;
+  
+  }
+.form-control i{
+  position: ;
+  top:40px;
+  right:10px;
+}
+.form-control small {
+  position: absolute;
+  visibility:hidden;
+  bottom: 0;
+  left: 0;
+  color: #283259;
+}
+.form button{
+  background-color: #F1D137;
+   color: #283259;
+  display: block;
+  width: 20%;
+  position: relative;
+  right: -700px;
+  
+  
+}
+
+.contain {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+#capt {
+	width: 170px;
+	height: 72px;
+	font-size: 37px;
+	background-color: #2C31CF;
+	padding: 5px;
+	border: none;
+	letter-spacing: 1px;
+	float: left;
+	color: #E9E91D;
+	border-radius: 5px 0 0 5px;
+}
+#refresh {
+	float: left;
+	background-color: #2C31CF;
+	height: 82px;
+	border-radius: 0 5px 5px 0;
+}
+#refresh img {
+	margin-top: 20px;
+	cursor: pointer;
+}
+#textinput {
+	width: 170px;
+	height: 70px;
+	font-size: 37px;
+	background-color: #252521;
+	border: none;
+	margin-left: 10px;
+	border-radius: 5px;
+	padding: 5px;
+	color: #D58A1E;
+}
+.contain button {
+	padding: 8px 20px;
+	height: 35px;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+	margin-left: 10px;
+	margin-top: 25px;
+	background-color: #764D11;
+	color: #CED4F0;
+	transition: .5s;
+}
+.contain button:hover {
+	background-color: #976216;
+}

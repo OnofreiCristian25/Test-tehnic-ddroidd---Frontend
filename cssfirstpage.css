@@ -1,0 +1,40 @@
+*
+
+.title h1{
+  background-color:#283259;
+  display: block;
+  color:white;
+  text-align: center;
+}
+.title img{
+  position: absolute;
+  left: 0;
+}
+.photo{
+  float:left;
+  width:33.33%;
+  padding:5px;
+}
+.container{
+  border:1px solid gray;
+  background-color:#EEEEEA;
+  height:100vh;
+    display:flex;
+  align-items:center;
+  justify-content: center;
+}
+
+button{
+ background-color: #F1D137;
+ color: #283259;
+ margin:20px;
+}
+#first{
+  text-align: right;
+}
+#two{
+text-align: center;
+  color:
+  
+}
+
